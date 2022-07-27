@@ -1,0 +1,100 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-color: hsl(185, 75%, 39%);
+	background-image: url('../images/bg-pattern-top.svg');
+	background-repeat: no-repeat;
+	font-size: 1.8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+.card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 20px;
+	overflow: hidden;
+	width: 35rem;
+}
+
+/* i did this to make the header image responsive */
+
+.header-card{
+	width: 100%;
+}
+
+.header-card img{
+	width: 100%;
+}
+/* i did this to make the header image responsive */
+
+.image-victor{
+	border-radius: 50%;
+	margin-top: -4rem;
+	margin-bottom: 2rem;
+	border:4px solid #fff;
+	overflow:hidden;
+}
+
+.profile-details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2rem;
+	font-family: sans-serif;
+}
+
+.profile-details h2{
+	font-size: 2rem;
+	font-family: 
+}
+
+.light{
+	color: hsl(0, 0%, 59%);
+	font-weight: 200;
+}
+
+.profile-details h3{
+	color: hsl(0, 0%, 59%);
+	font-weight: 100;
+}
+
+.followmeter{
+	border-top: 1px solid hsl(0, 0%, 59%);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	line-height: 2.8rem;
+}
+
+.followmeter-list{
+	display: flex;
+	list-style-type: none;
+}
+
+.followmeter-list li{
+	margin: 1rem;
+	text-align: center;
+	margin: 4.5rem 2rem;
+}
+
+.followmeter p{
+	font-weight: 400;
+	font-size: 1.5rem;
+	color: hsl(227, 10%, 46%);
+	letter-spacing: 0.2rem;
+}
